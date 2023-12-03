@@ -25,4 +25,10 @@
 
 - [https://projectlombok.org/features/all](https://projectlombok.org/features/all)
 
+## Local Redis
 
+Revis v6 instance with expose port 6379. Store is ephemeral.
+
+`docker run --name my-redis -p 6379:6379 -d redis:6-alpine`
+
+https://hub.docker.com/_/redis
